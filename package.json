@@ -1,0 +1,15 @@
+{
+  "name": "@spa/backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon --inspect index.js"
+  },
+  "dependencies": {
+    "@okta/jwt-verifier": "^2.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0"
+  }
+}
